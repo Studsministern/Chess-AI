@@ -15,11 +15,11 @@ E:/Program Files/GitHub/Chess-AI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58571
+53700
 Successfully changed project path to: E:/Program Files/GitHub/Chess-AI
 E:/Program Files/GitHub/Chess-AI
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path E:/Program Files/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,40 +35,40 @@ Initialize mono
 Mono path[0] = 'E:/Program Files/Unity/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Program Files/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Program Files/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001517 seconds.
+Registered in 0.226500 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
+- Completed reload, in  4.324 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004386 seconds.
+Registered in 0.557415 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
+- Completed reload, in  2.981 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 64.9 MB.
+System memory in use before: 65.0 MB.
+System memory in use after: 65.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1825.
-Total: 7.377500 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.149900 ms MarkObjects: 6.771200 ms  DeleteObjects: 0.221900 ms)
+Total: 2.434200 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.030900 ms  DeleteObjects: 0.095500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -83,41 +83,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.063636 seconds 
-  Import took 0.110679 seconds .
+  path: Assets/Prefabs/Light square.prefab
+  artifactKey: Guid(321acec9fd3c47545a8f5e9aad97d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Light square.prefab using Guid(321acec9fd3c47545a8f5e9aad97d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b729917aa50c97e43a0ee773f0b0a34') in 0.156998 seconds 
+  Import took 0.170502 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.840110 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(1bd73ec0def283441a5e9708cf8b8fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(1bd73ec0def283441a5e9708cf8b8fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd389050534b857a9624c8b1fa870aa77') in 0.014768 seconds 
-  Import took 0.036276 seconds .
+  Time since last request: 28.936324 seconds.
+  path: Assets/Prefabs/Dark square.prefab
+  artifactKey: Guid(25442cc3099a6cb4398be54d653ba28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dark square.prefab using Guid(25442cc3099a6cb4398be54d653ba28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaf4520b2856a8270cc1dd97ec059ec') in 0.026386 seconds 
+  Import took 0.029576 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.535659 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(dbc5844ac321b40448dc3ef4bbff8e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(dbc5844ac321b40448dc3ef4bbff8e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e8f71fde83cb37f3237bc9d6b36e5f') in 0.016508 seconds 
-  Import took 0.042167 seconds .
+  Time since last request: 3.670781 seconds.
+  path: Assets/Prefabs/Light square.prefab
+  artifactKey: Guid(321acec9fd3c47545a8f5e9aad97d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Light square.prefab using Guid(321acec9fd3c47545a8f5e9aad97d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dd94717e51982c27c6a13b10fb9217') in 0.011260 seconds 
+  Import took 0.015091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.912264 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa0b607c43d12d5d8081a89de6beb5') in 0.019863 seconds 
-  Import took 0.607726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.435966 seconds.
-  path: Assets/Scenes/Chess.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Chess.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4930c24c58316f555cc6969811afdf9') in 0.010608 seconds 
-  Import took 0.035842 seconds .
+  Time since last request: 1.205653 seconds.
+  path: Assets/Prefabs/Light square.prefab
+  artifactKey: Guid(321acec9fd3c47545a8f5e9aad97d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Light square.prefab using Guid(321acec9fd3c47545a8f5e9aad97d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913545b6fcec71ecb9c4dcfe673fc1b') in 0.010263 seconds 
+  Import took 0.013512 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
